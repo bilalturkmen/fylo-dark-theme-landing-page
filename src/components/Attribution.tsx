@@ -3,7 +3,7 @@ const Attribution = () => {
     <div className="footer--attribution">
       Challenge by{" "}
       <a
-        href="https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd"
+        href="https://www.frontendmentor.io/solutions/fylo-landing-page-with-typescript-Rp93QMMrMo"
         target="_blank"
         aria-label="visit the challenge page"
       >

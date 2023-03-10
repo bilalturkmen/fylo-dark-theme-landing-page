@@ -559,6 +559,10 @@ body {
     padding: 12.5rem 0 0 2.5rem;
   }
 
+  .footer--logo {
+    width: fit-content;
+  }
+
   .footer--nav {
     display: grid;
     grid-template-columns: 28.8rem 19.7rem 17.75rem auto;

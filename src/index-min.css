@@ -516,8 +516,6 @@ body {
     top: 0;
     transition: 0.6s ease;
     z-index: 2;
-
-    scroll-padding: 10em;
   }
 
   .sticky-nav {

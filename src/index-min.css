@@ -477,7 +477,7 @@ body {
 
 @media screen and (min-width: 72em) {
   .container {
-    padding-inline: 5rem 4rem;
+    padding-inline: 5rem;
   }
 
   .navbar img {
@@ -582,6 +582,7 @@ body {
 
   .social {
     justify-self: end;
+    margin-top: 0;
   }
 }
 

@@ -1,9 +1,9 @@
 <h1>Fylo dark theme landing page</h1>
 <div>
   <h3>
-    <a href="https://splendid-bubblegum-c5c20d.netlify.app/"> Live View </a>
+    <a href="https://superlative-gelato-8c62b6.netlify.app/"> Live View </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/solutions/pod-request-access-landing-with-typescript-qcPu9sxdb3"> Solution Page </a>
+    <a href="https://www.frontendmentor.io/solutions/fylo-landing-page-with-typescript-Rp93QMMrMo"> Solution Page </a>
   </h3>
 </div>
 <div>

@@ -8,9 +8,7 @@ import SubsForm from "./SubsForm";
 import WelcomeMsg from "./WelcomeMsg";
 import FooterComp from "./Footer";
 import Attribution from "./Attribution";
-
-// Import utils
-import ScrolltoTop from "../utils/ScrolltoTop";
+import ScrolltoTop from "./ScrolltoTop";
 
 // Import Data
 import { featData } from "../utils/feature-data";

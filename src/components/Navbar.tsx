@@ -22,7 +22,7 @@ const Navbar = () => {
   };
 
   return (
-    <section id="home" className={`navbar ${stickyClass}`}>
+    <div className={`navbar ${stickyClass}`}>
       <a href="#" className="notLink">
         <img src="./images/logo.svg" alt="Fylo Logo" />
       </a>
@@ -35,7 +35,7 @@ const Navbar = () => {
           );
         })}
       </nav>
-    </section>
+    </div>
   );
 };
 

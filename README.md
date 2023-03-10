@@ -14,7 +14,7 @@
 
 - TypeScript used.
 - Email verification implemented.
-- Scroll to top and Sticky menu implemented.
+- Scroll to Top button and Sticky Menu implemented.
 
 ![](./public/screenshot.jpg)
 

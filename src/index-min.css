@@ -1,3 +1,37 @@
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./assets/fonts/OpenSans-400.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./assets/fonts/OpenSans-700.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./assets/fonts/Raleway-400.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./assets/fonts/Raleway-700.woff2) format("woff2");
+}
+
 :root {
   /*  Colors */
   --bkg-intro: hsl(217, 28%, 15%);

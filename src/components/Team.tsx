@@ -1,7 +1,12 @@
 const Team = () => {
   return (
     <section id="team" className="team">
-      <img src="./images/illustration-stay-productive.png" alt="" />
+      <img
+        src="./images/illustration-stay-productive.webp"
+        alt=""
+        width="auto"
+        height="auto"
+      />
 
       <div className="team--content">
         <h2>Stay productive, wherever you are</h2>

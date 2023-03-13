@@ -11,9 +11,9 @@ import Attribution from "./Attribution";
 import ScrolltoTop from "./ScrolltoTop";
 
 // Import Data
-import { featData } from "../utils/feature-data";
-import { quotesData } from "../utils/quotes-data";
-import { navLinks } from "../utils/menu-data";
+import featData from "../data/feature-data.json";
+import quotesData from "../data/quotes-data.json";
+import { navLinks } from "../data/menu-data";
 
 //////////////////////////
 // Export Components

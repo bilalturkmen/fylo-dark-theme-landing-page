@@ -12,9 +12,10 @@
 
 ## 👍 My Challenges:
 
-- TypeScript used.
 - Email verification implemented.
 - Scroll to Top button and Sticky Menu implemented.
+
+**update**: [PageSpeed Performance](https://pagespeed.web.dev/report?url=https%3A%2F%2Fsuperlative-gelato-8c62b6.netlify.app%2F)
 
 ![](./public/screenshot.jpg)
 

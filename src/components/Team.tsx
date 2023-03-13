@@ -4,8 +4,8 @@ const Team = () => {
       <img
         src="./images/illustration-stay-productive.webp"
         alt=""
-        width="auto"
-        height="auto"
+        width="615"
+        height="465"
       />
 
       <div className="team--content">

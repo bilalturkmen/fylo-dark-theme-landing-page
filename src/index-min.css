@@ -70,6 +70,8 @@ html {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 header {
   background: var(--bkg-intro) url(../public/images/bg-curvy-desktop.svg)
@@ -178,7 +180,8 @@ body {
 }
 
 .sticky-nav img {
-  width: 70%;
+  width: 60%;
+  height: auto;
 }
 
 /* Hero Section */
@@ -190,7 +193,6 @@ body {
 
 .hero img {
   margin-inline: auto;
-  width: 100%;
 }
 
 .hero h1 {
@@ -287,10 +289,6 @@ body {
   display: flex;
   flex-direction: column;
   padding-top: 5.45rem;
-}
-
-.team img {
-  width: 90%;
 }
 
 .team--content {
@@ -549,7 +547,7 @@ body {
   opacity: 1;
 }
 
-@media screen and (min-width: 72em) {
+@media screen and (min-width: 70em) {
   .container {
     padding-inline: 5rem;
   }
@@ -563,10 +561,6 @@ body {
 
   .navbar nav a:not(:last-child) {
     margin-right: 3.5rem;
-  }
-
-  .hero img {
-    width: auto;
   }
 
   /* Sticky Navbar */

@@ -4,8 +4,8 @@ const Hero = () => {
       <img
         src="./images/illustration-intro.webp"
         alt=""
-        width="auto"
-        height="auto"
+        width="720"
+        height="534"
       />
       <h1>All your files in one secure location, accessible anywhere.</h1>
       <p>

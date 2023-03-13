@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <div className={`navbar ${stickyClass}`}>
       <a href="#" className="notLink">
-        <img src="./images/logo.svg" alt="Fylo Logo" />
+        <img src="./images/logo.svg" alt="Fylo Logo" width={176} height={52} />
       </a>
       <nav>
         {navLinks.map((link, index) => {

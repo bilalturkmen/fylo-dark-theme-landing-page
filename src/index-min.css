@@ -450,6 +450,12 @@ body {
   max-width: 25rem;
 }
 
+.address i {
+  background: url(../public/images/icon-location.svg) no-repeat;
+  width: 3rem;
+  height: 3rem;
+}
+
 .address p {
   margin-top: -0.35rem;
   line-height: 1.5;
@@ -467,6 +473,17 @@ body {
   align-items: center;
   gap: 1.6rem;
   font-size: 0.875rem;
+}
+
+.contact ul li:nth-child(1) i {
+  background: url(../public/images/icon-phone.svg) no-repeat;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.contact ul li:nth-child(2) i {
+  background: url(../public/images/icon-email.svg) no-repeat;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 .submenu ul {
@@ -491,6 +508,9 @@ body {
 }
 
 .social i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 2rem;
   height: 2rem;
   line-height: 2rem;
@@ -506,6 +526,11 @@ body {
 .social i:hover {
   color: var(--cta-cyan);
   border-color: var(--cta-cyan);
+}
+
+.social svg {
+  width: 1.1rem;
+  height: 1.1rem;
 }
 
 .footer--attribution {
@@ -559,8 +584,10 @@ body {
     width: 100%;
     padding: 1rem 15rem;
   }
+
   .sticky-nav img {
     width: 70%;
+    height: auto;
   }
 
   .features {
@@ -671,6 +698,7 @@ body {
 }
 .icon-style {
   background-color: var(--cta-cyan);
+
   height: 3rem;
   width: 3rem;
   line-height: 3rem;
@@ -680,7 +708,16 @@ body {
   animation: movebtn 3s ease-in-out infinite;
   transition: all 0.5s ease-in-out;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.icon-style svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 .icon-style:hover {
   animation: none;
   background: #fff;

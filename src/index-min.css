@@ -146,10 +146,11 @@ body {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 4.59rem;
+  padding-top: 2rem;
 }
+
 .navbar nav {
-  padding-top: 0rem;
+  padding-top: 2rem;
 }
 
 .navbar nav a {
@@ -158,10 +159,11 @@ body {
   color: var(--white);
   text-decoration: none;
   letter-spacing: 0.05rem;
+  min-width: 3rem;
 }
 
 .navbar nav a:not(:last-child) {
-  margin-right: 1.5rem;
+  margin-right: 2rem;
 }
 
 .navbar nav a:hover {
@@ -547,9 +549,21 @@ body {
   opacity: 1;
 }
 
+@media screen and (min-width: 31.25em) {
+  .navbar nav {
+    padding-top: 0rem;
+  }
+  .navbar nav a:not(:last-child) {
+    margin-right: 1.5rem;
+  }
+}
+
 @media screen and (min-width: 70em) {
   .container {
     padding-inline: 5rem;
+  }
+  .navbar {
+    padding-top: 4.59rem;
   }
 
   .navbar img {

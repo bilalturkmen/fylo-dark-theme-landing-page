@@ -10,7 +10,6 @@ import FooterComp from "./Footer";
 import Attribution from "./Attribution";
 import ScrolltoTop from "./ScrolltoTop";
 import { useSticky } from "../hooks/useSticky";
-import Navlinks from "./Navlinks";
 
 // Import Data
 import featData from "../data/feature-data.json";
@@ -20,7 +19,6 @@ import { menuLinks } from "../data/menu-data";
 //////////////////////////
 // Export Components
 export { Navbar };
-export { Navlinks };
 export { Hero };
 export { Features };
 export { Team };

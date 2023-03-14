@@ -3,7 +3,7 @@ import { featData } from "./";
 
 const Features = () => {
   return (
-    <section id="features" className="features">
+    <section id="featuresSection" className="features">
       {featData.features.map(
         (
           feat: {

@@ -1,6 +1,6 @@
 const Team = () => {
   return (
-    <section id="team" className="team">
+    <section id="teamSection" className="team">
       <img
         src="./images/illustration-stay-productive.webp"
         alt=""

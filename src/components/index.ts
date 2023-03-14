@@ -9,15 +9,18 @@ import WelcomeMsg from "./WelcomeMsg";
 import FooterComp from "./Footer";
 import Attribution from "./Attribution";
 import ScrolltoTop from "./ScrolltoTop";
+import { useSticky } from "../hooks/useSticky";
+import Navlinks from "./Navlinks";
 
 // Import Data
 import featData from "../data/feature-data.json";
 import quotesData from "../data/quotes-data.json";
-import { navLinks } from "../data/menu-data";
+import { menuLinks } from "../data/menu-data";
 
 //////////////////////////
 // Export Components
 export { Navbar };
+export { Navlinks };
 export { Hero };
 export { Features };
 export { Team };
@@ -29,8 +32,9 @@ export { Attribution };
 
 //export utils
 export { ScrolltoTop };
+export { useSticky };
 
 // Export Data
 export { featData };
 export { quotesData };
-export { navLinks };
+export { menuLinks };
